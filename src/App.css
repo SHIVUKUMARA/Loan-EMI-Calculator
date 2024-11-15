@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.2rem;
+  color: slateblue;
+}
+
+.main-container .container {
+  border: 2px solid #999;
+  padding: 20px;
+  width: 50%;
+}
+
+.range-input {
+  padding: 20px;
+  width: 100%;
+}
+
+.range-input .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.range-input .top .top-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.main-container .right {
+  text-align: center;
+  background-color: #272932;
+  color: white;
+}
+
+.main-container .right .right-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.range-input .top .val {
+  background-color: rgba(0, 255, 0, 0.38);
+  font-weight: bold;
+}
+
+.range-input .bottom input[type="range"] {
+  width: 100%;
+}
